@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+</head>
+<body>
+    <h1 id="hello">안녕하세요</h1>
+    <h1 id="hello2">애플코딩</h1>
+    <h1 id="hello3">JS 초보에요</h1>
+    <script>
+        document.getElementById('hello').innerHTML = '안녕';
+        document.getElementById('hello').style.fontSize = '16px';
+        //문서 .(의) 요소를 가져와라 ID가 헬로인. 그거의 내부 html 을 안녕으로 바꿔라. 
+        // = : 오른쪽 거를 왼쪽에 넣어라.
+        document.getElementById('hello2').style.color = 'red';
+        document.getElementById('hello3').innerHTML = 'JS 개고수';
+        // getElementById 이 부분을 셀렉터라고 칭함
+    </script>
+</body>
+</html>
